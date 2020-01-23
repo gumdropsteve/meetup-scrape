@@ -23,7 +23,6 @@ houston_groups = ['https://www.meetup.com/python-14/',
 				  'https://www.meetup.com/GA-Houston-Coding-Data-Design-Digital-Marketing/',
 				  'https://www.meetup.com/Flatiron-School-Houston-Coding-Community/',
 				  'https://www.meetup.com/Houston-Scrum-Users-Group/']
-                 
 # san francisco (bay area), ca
 sfo_groups = ['https://www.meetup.com/San-Francisco-Python-Drinkup/',
 			  'https://www.meetup.com/sfpython/',
@@ -52,3 +51,43 @@ sfo_groups = ['https://www.meetup.com/San-Francisco-Python-Drinkup/',
 			  'https://www.meetup.com/Santa-Cruz-Python/',
 			  'https://www.meetup.com/Women-Who-Code-SF/',
 			  'https://www.meetup.com/SF-Bay-ACM/']
+# boston, ma
+boston_groups = ['https://www.meetup.com/New-Hampshire-Python-Group/',
+				 'https://www.meetup.com/bostonpython/',
+				 'https://www.meetup.com/Learn-Python-Programming/',
+				 'https://www.meetup.com/Boston-Twisted-Python/',
+				 'https://www.meetup.com/NH-Data-Science-Meetup-Manchester/',
+				 'https://www.meetup.com/odsc-open-source-data-science/',
+				 'https://www.meetup.com/djangoboston/',
+				 'https://www.meetup.com/boston-ai-machine-learning/',
+				 'https://www.meetup.com/sports-data-at-sports-innovation-lab/',
+				 'https://www.meetup.com/PyLadies-Boston/',
+				 'https://www.meetup.com/bostonsoftware/',
+				 'https://www.meetup.com/Women-Who-Code-Boston/',
+				 'https://www.meetup.com/bostonml/',
+				 'https://www.meetup.com/Boston-AI-Network-Artificial-Intelligence-Group/']
+# los angeles, ca
+lax_groups = ['https://www.meetup.com/OCPython/',
+			  'https://www.meetup.com/Python-Data-Science-Los-Angeles/',
+			  'https://www.meetup.com/socalpython/',
+			  'https://www.meetup.com/lalamp/',
+			  'https://www.meetup.com/Python-Hackathons/',
+			  'https://www.meetup.com/Santa-Monica-Python-Meetup/',
+			  'https://www.meetup.com/SCV-Data-Science-and-Machine-Learning/',
+			  'https://www.meetup.com/iepyladies/',
+			  'https://www.meetup.com/CodeSCV-Santa-Clarita-Valley/',
+			  'https://www.meetup.com/Data-Science-ODSC-Los-Angeles/',
+			  'https://www.meetup.com/Pyladies-LA/']
+# san dieago, ca
+san_diego_groups = ['https://www.meetup.com/pythonsd/',
+					 'https://www.meetup.com/San-Diego-Data-Science-Meetup/',
+					 'https://www.meetup.com/machine-learning-society-sd/',
+					 'https://www.meetup.com/Data-Science-for-Non-Profits/',
+					 'https://www.meetup.com/General-Assembly-San-Diego/',
+					 'https://www.meetup.com/San-Diego-Jupyter-Meetup/',
+					 'https://www.meetup.com/Docker-San-Diego/',
+					 'https://www.meetup.com/San-Diego-Women-in-Data-Science/',
+					 'https://www.meetup.com/SanDiegoAI/',
+					 'https://www.meetup.com/San-Diego-Data-Science-R-Users-Group/',
+					 'https://www.meetup.com/Thinkful-San-Diego/',
+					 'https://www.meetup.com/Data-Engineering-San-Diego/']
