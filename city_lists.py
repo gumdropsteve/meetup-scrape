@@ -91,3 +91,51 @@ san_diego_groups = ['https://www.meetup.com/pythonsd/',
 					 'https://www.meetup.com/San-Diego-Data-Science-R-Users-Group/',
 					 'https://www.meetup.com/Thinkful-San-Diego/',
 					 'https://www.meetup.com/Data-Engineering-San-Diego/']
+# atlanta, ga
+atl_groups = ['https://www.meetup.com/python-atlanta/',
+			  'https://www.meetup.com/AtlantaNPUG/',
+			  'https://www.meetup.com/Atlanta-Tech-Talks/',
+			  'https://www.meetup.com/lit_atlanta/',
+			  'https://www.meetup.com/Ansible-Atlanta/',
+			  'https://www.meetup.com/openstack-atlanta/',
+			  'https://www.meetup.com/HacksHackersATL/',
+			  'https://www.meetup.com/Southern-Data-science/',
+			  'https://www.meetup.com/Atlanta-Apache-Spark-User-Group/',
+			  'https://www.meetup.com/meetup-group-wSeZdhrV/',
+			  'https://www.meetup.com/Applied-Data-Science-of-Atlanta/',
+			  'https://www.meetup.com/ODSC-Atlanta-Data-Science/']
+# san antonio, tx (expanded to 'data science' a bit due to few python groups)
+san_antonio_groups = ['https://www.meetup.com/Alamo-City-Python-Group/',
+					  'https://www.meetup.com/Alamo-Code-Learners/',
+					  'https://www.meetup.com/San-Antonio-Women-in-Machine-Learning-and-Data-Science/',
+					  'https://www.meetup.com/San-Antonio-Data-Science/',
+					  'https://www.meetup.com/bianalytics/',
+					  'https://www.meetup.com/San-Antonio-Artificial-Intelligence-Events/']
+# miami, fl
+miami_groups = ['https://www.meetup.com/SoFloPy/',
+				'https://www.meetup.com/Python-Developers-Miami-Meetup/',
+				'https://www.meetup.com/python-miami/',
+				'https://www.meetup.com/Miami-PyLadies/',
+				'https://www.meetup.com/ODSC-Miami-Data-Science/',
+				'https://www.meetup.com/Data-Science-Study-Group-South-Florida/',
+				'https://www.meetup.com/South-Florida-DevOps-Group/',
+				'https://www.meetup.com/Fort-Lauderdale-Machine-Learning-Meetup/',
+				'https://www.meetup.com/breathe-code/',
+				'https://www.meetup.com/Miami-Data-Science-Meetup/']
+# dallas, tx
+dallas_groups = ['https://www.meetup.com/dfwpython/',
+				 'https://www.meetup.com/amRobotics/',
+				 'https://www.meetup.com/Collin-County-Data-Science-Education/',
+				 'https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/',
+				 'https://www.meetup.com/python4e/',
+				 'https://www.meetup.com/Dallas-Women-in-Data/',
+				 'https://www.meetup.com/codingdojo-dallas/']
+# denver, co
+denver_groups = ['https://www.meetup.com/BoulderPython/',
+				 'https://www.meetup.com/Denver-Python-Meetup/',
+				 'https://www.meetup.com/frpythoneers/',
+				 'https://www.meetup.com/PyDENCO/',
+				 'https://www.meetup.com/PyData-Denver/',
+				 'https://www.meetup.com/Colorado-Data-Science/',
+				 'https://www.meetup.com/DevOps-Exchange-DTC-Meetup/',
+				 'https://www.meetup.com/Boulder-Women-in-Machine-Learning-and-Data-Science/']
