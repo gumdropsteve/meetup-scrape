@@ -5,14 +5,12 @@ from bs4 import BeautifulSoup
 from contextlib import closing
 from requests.exceptions import RequestException
 
-
 def good_respons(e):  
 	# Returns True if the response seems to be HTML, False otherwise.
     content_type = e.headers['Content-Type'].lower()
     return (e.status_code == 200
             and content_type is not None
             and content_type.find('html') > -1)
-
 
 def basically_a_con(dom, stream=False):  
 	# Attempts to get the content at `url` (dom) by making an HTTP GET request.
@@ -29,7 +27,6 @@ def basically_a_con(dom, stream=False):
                     return e.content  # return the text content
     except RequestException as e:  # otherwise return None
         raise Exception(f'Error during requests to {dom} : {e}')
-
 
 def pull_group_details(base_url):
 	'''
@@ -92,8 +89,16 @@ if __name__=='__main__':
 			output.append(run)
 		# make dataframe from groups
 		df = pandas.DataFrame(output, columns=['Meetup Name', 'Location', 'Link', 'Members'])
-		# record groups 
-		df.to_csv(f'{city_name}_groups.csv', index=False)
-	# run san fran
-	from city_lists import sfo_groups
-	run(sfo_groups, 'sfo')
+		# record groups to data dir
+		df.to_csv(f'data/{city_name}_groups.csv', index=False)
+	# import city lists
+	from city_lists import atl_groups, austin_groups, boston_groups, dallas_groups, denver_groups, houston_groups, lax_groups, miami_groups, san_antonio_groups, san_diego_groups, sfo_groups
+	# collect cities & names/aliases
+	cities = [atl_groups, austin_groups, boston_groups, dallas_groups, denver_groups, houston_groups, 
+			  lax_groups, miami_groups, san_antonio_groups, san_diego_groups, sfo_groups]
+	names = ['atlanta', 'austin', 'boston', 'dallas', 'denver', 'houston', 
+			 'los_angeles', 'miami', 'san_antonio', 'san_diego', 'sfo']
+	# go through the lists
+	for i in range(len(cities)):
+		# and run each city
+		run(cities[i], names[i])
